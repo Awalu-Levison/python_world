@@ -19,7 +19,6 @@ struct node
 	struct node *next; /* Pointer to the next element of a list*/
 };
 
-struct node *add_empty(struct node *head, int data);
-struct node *add_first(struct node *head, int data);
+struct node *create_node(struct node *head, int data);
 
 #endif /*By: Awalu Levison*/

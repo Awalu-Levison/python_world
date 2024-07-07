@@ -6,7 +6,7 @@
  * @data: The data (element) given to the list
  * Return: New list
  */
-struct node *add_empty(struct node *head, int data)
+struct node *create_node(struct node *head, int data)
 {
 	/*Define a temporary var for traversing the node pointers*/
 	struct node *temp = malloc(sizeof(struct node));
